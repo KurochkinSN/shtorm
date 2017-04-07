@@ -18,8 +18,12 @@ class MySendText extends SendText{
 
     function get($text = 'и тишина...')
     {
+        echo <<<END
+        'Текст' написанный "echo" $text .<br>
+END;
+        echo 'Вы говорите ',(is_null($text))?'ни чего не говорите':$text, '<br>';
         // TODO: Это я говорю.
-        print $text;
+        print $text.'<br>';
     }
 }
 

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 abstract class SendText{
     abstract function get($text);
 }
@@ -29,3 +29,4 @@ END;
 
 $iSend = MySendText::init();
 $iSend->get();
+?>

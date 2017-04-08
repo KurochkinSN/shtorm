@@ -29,4 +29,3 @@ END;
 
 $iSend = MySendText::init();
 $iSend->get();
-?>
